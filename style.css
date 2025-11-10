@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f3f4;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  background: white;
+  width: 300px;
+  margin: 100px auto;
+  padding: 30px 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.box h2 {
+  margin-bottom: 20px;
+}
+
+.box input {
+  width: 90%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.box button {
+  width: 95%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.box button:hover {
+  background-color: #0056b3;
+}
+
+.box p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#msg {
+  color: red;
+  font-size: 14px;
+  height: 18px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #9f281b;
+  color: white;
+  padding: 10px 20px;
+}
+
+header button {
+  background: white;
+  color: #01060b;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background: #f1f1f1;
+}
+
+main {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.welcome {
+  background: rgb(227, 150, 150);
+  display: inline-block;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
